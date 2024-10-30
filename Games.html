@@ -14,7 +14,7 @@
       <a href="/">Home</a>
       <a href="/page2.html" aria-current="page">Top 10 games</a>
       <a href="/page3.html"aria-current="page">Top 5 movies/shows</a>
-      <a href="/page4.html" aria-current="page">Extremes</a>
+      <a href="/page4.html" aria-current="page">Random</a>
       <a href="/page5.html" aria-current="page">Savages</a>
       <a href="/page6.html" aria-current="page">Ultimates</a>
       <li><a href="https://youtu.be/dQw4w9WgXcQ?si=SAXwkhdHn8ZS6Xr8">Click Me!</a></li>
@@ -28,8 +28,10 @@
 <h1 style="text-align:center; font-size:x-large;"> The list of my top 10 games <h1>
   <h2 style="text-align:center; font-size:large;">(In no particular order)</h2>
 
-<div style="float: left">
-  <hr />
+<p style="text-align: center; color: black;">Idk how to make spacers</p>
+ 
+<div class="iframe-wrapper" style="float: left">
+
   <iframe
     width="770"
     height="460"
@@ -44,8 +46,8 @@
   <hr />
 </div>
 
-<div style="float: right">
-  <hr />
+<div class="iframe-wrapper" style="float: right">
+
   <iframe
     width="770"
     height="460"
@@ -60,7 +62,7 @@
   <hr />
 </div>
 
-<div style="float: left">
+<div class="iframe-wrapper" style="float: left">
   <iframe
     width="770"
     height="460"
@@ -75,7 +77,7 @@
   <hr />
 </div>
 
-<div style="float: right">
+<div class="iframe-wrapper" style="float: right">
   <iframe
     width="770"
     height="460"
@@ -92,7 +94,7 @@
   <hr />
 </div>
 
-<div style="float: left">
+<div class="iframe-wrapper" style="float: left">
   <iframe
     width="770"
     height="460"
@@ -107,7 +109,7 @@
   <hr />
 </div>
 
-<div style="float: right">
+<div class="iframe-wrapper" style="float: right">
   <iframe
     width="770"
     height="460"
@@ -122,7 +124,7 @@
   <hr />
 </div>
 
-<div style="float: left">
+<div class="iframe-wrapper" style="float: left">
   <iframe
     width="770"
     height="460"
@@ -139,7 +141,7 @@
   <hr />
 </div>
 
-<div style="float: right">
+<div class="iframe-wrapper" style="float: right">
   <iframe
     width="770"
     height="460"
@@ -154,7 +156,7 @@
   <hr />
 </div>
 
-<div style="float: left">
+<div class="iframe-wrapper" style="float: left">
   <iframe
     width="770"
     height="460"
@@ -171,7 +173,7 @@
   <hr />
 </div>
 
-<div style="float: right">
+<div class="iframe-wrapper" style="float: right">
   <iframe
     width="765"
     height="460"
@@ -186,5 +188,18 @@
   <hr />
 </div>
 
+.iframe-wrapper {
+  position: relative;
+  width: 100%;
+  padding-top: 56.25%; /* 16:9 aspect ratio (høyde delt på bredde, 9/16 = 0.5625) */
+  overflow: hidden;
+}
 
+.iframe-wrapper iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
 <footer style="text-align: center; color: black;">Hello :D</footer>
