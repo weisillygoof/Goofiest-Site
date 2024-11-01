@@ -13,6 +13,7 @@ nav {
   display: flex;
   flex-wrap: wrap;
   align-items: center;
+  border: #fff 2px;
   justify-content: center;
   padding: 0.5rem;
   gap: 0.5rem;
