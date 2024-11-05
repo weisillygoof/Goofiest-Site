@@ -12,6 +12,7 @@ body {
 nav {
   display: flex;
   flex-wrap: wrap;
+  flex-direction: row;
   align-items: center;
   border: #fff 2px;
   justify-content: center;
@@ -71,8 +72,8 @@ header {
 
 .iframe-wrapper{
   display: flex; 
-  width: 700; 
-  height: 560;
+  width: 100%; 
+  height: 700;
   flex: 0 0 50%;
   flex-direction: column; 
   align-items: center;
@@ -125,18 +126,20 @@ section {
   justify-content: center;
   align-items: center;
   border: solid;
-  gap: 4px;
-  min-width: 600px;
+  border-radius: 1px;
+  gap: 0px;
 }
 
 .centereddiv {
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 100%;
+  width: 90%;
+  height: 700;
   max-width: 100000px;
   position: relative
 }
+
 
 .blackbig {
    text-align: center; 
@@ -148,4 +151,22 @@ section {
    text-align: center;
    font-size: large;
    color: rgb(0, 0, 0); text-shadow: -1px;
+}
+
+.whitelarge {
+  text-align: center; 
+  font-size: large; 
+  color: rgb(255, 255, 255);
+}
+
+.whitelarger {
+  text-align: center; 
+  font-size: xx-large; 
+  color: rgb(255, 255, 255);
+}
+
+.whitesmall {
+  text-align: center; 
+  font-size: medium; 
+  color: rgb(255, 255, 255);
 }
